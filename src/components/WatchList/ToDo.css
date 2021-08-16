@@ -1,0 +1,53 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    background-color: blueviolet;
+}
+.ToDoInput {
+    height: 2rem;
+    width: 15rem;
+    border: 1px solid whitesmoke;
+    background:none;
+    color: white;
+    padding: 0 10px;
+    outline: none;
+}
+.enter {
+    width: 6rem;
+    height: 2rem;
+    font-size: 0.8rem;
+    background: none;
+    border: 1px solid whitesmoke;
+    color: whitesmoke;
+    margin-left: 0.8rem;
+}
+.enter:hover {
+    background: #EEA47FFF;
+    color: whitesmoke;
+    cursor: pointer;
+}
+.todo_item {
+    position: absolute;
+    cursor:move;
+    min-width: 15rem;
+    color: #EEA47FFF;
+    padding: 1em;
+    border-radius: 0.5rem;
+}
+
+.delete {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    background: none;
+    border: none;
+}
+
+.delete:hover {
+    color:red;
+    cursor: pointer;
+    
+}

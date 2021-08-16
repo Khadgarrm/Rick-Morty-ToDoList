@@ -1,0 +1,16 @@
+* {
+    box-sizing: border-box;
+}
+
+.character {
+    height: 25rem;
+    width: 20rem;
+    display: inline-block;
+    margin: 1rem;
+    padding: 0.5rem;
+    background-color:rgb(217, 234, 241);
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+
